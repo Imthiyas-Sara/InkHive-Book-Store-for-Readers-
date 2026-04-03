@@ -36,8 +36,8 @@ This project was built entirely in **Android Studio** using **Java**, with emula
 
 | Member | Contribution |
 |--------|-------------|
-| **Sara (SA24610703)** | Group Leader; Home Page UI design and implementation, Popular & Recommended sections, RecyclerViews, book click & “Add to Favourites” functionality, led project completion and coordinated team efforts. |
-| **Zikra (SA24610771)** | Profile, Login, and Register pages; Firebase Authentication integration for login/signup/logout; managed user data storage. |
+| **I Sara (SA24610703)** | Group Leader; Home Page UI design and implementation, Popular & Recommended sections, RecyclerViews, book click & “Add to Favourites” functionality, led project completion and coordinated team efforts. |
+| **M S F Zikra (SA24610771)** | Profile, Login, and Register pages; Firebase Authentication integration for login/signup/logout; managed user data storage. |
 | **F Z Insarf (SA24610519)** | Details Page: search functionality using Google Books API; displayed book details (title, author, page count, description, preview link); preview link implementation. |
 | **S Mahisha (SA24610770)** | Favourites Page: designed and implemented Favourites screen; displayed saved books; remove functionality; RecyclerView implementation. |
 
