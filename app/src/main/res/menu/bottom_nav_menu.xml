@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:icon="@drawable/baseline_home_24"
+        android:iconTint="#A1887F"/>
+
+    <item
+        android:title="Details"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:id="@+id/details"
+        android:iconTint="#A1887F"/>
+
+    <item
+        android:title="Favourites"
+        android:icon="@drawable/rounded_add_notes_24"
+        android:id="@+id/favourites"
+        android:iconTint="#A1887F"/>
+
+    <item
+        android:title="Profile"
+        android:icon="@drawable/round_account_circle_24"
+        android:id="@+id/profile"
+        android:iconTint="#A1887F"/>
+</menu>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "849587227821",
+    "project_id": "inkhive-ebf8e",
+    "storage_bucket": "inkhive-ebf8e.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:849587227821:android:9aaa223a7d40afc8244a24",
+        "android_client_info": {
+          "package_name": "lk.scu.inkhive"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "849587227821-mm9v5fvaknkpeciggod1qcpgj7clarh0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAaJWrZ4trlm_ASa0XBJgLp19uoY_M1q1I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "849587227821-mm9v5fvaknkpeciggod1qcpgj7clarh0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

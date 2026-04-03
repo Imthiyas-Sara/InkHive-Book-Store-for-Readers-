@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="160dp"
+    android:layout_height="250dp"
+    android:layout_margin="8dp"
+    android:padding="8dp"
+    android:background="#D7CCC8"
+    android:elevation="4dp">
+
+    <ImageView
+        android:id="@+id/imgBook"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/download"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/tvBookTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:text="Book Title"
+        android:textColor="#3E2723"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:maxLines="2"
+        android:ellipsize="end" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:gravity="center_vertical">
+
+        <!-- Favourite Icon - Bigger -->
+        <ImageView
+            android:id="@+id/btnFavourite"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:src="@drawable/rounded_add_notes_24"
+            android:padding="3dp"
+            android:layout_marginEnd="12dp"
+            tools:ignore="ContentDescription" />
+
+        <!-- Spacer to push View button to the right -->
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1" />
+
+        <!-- Smaller View Button -->
+        <Button
+            android:id="@+id/btnView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingHorizontal="8dp"
+            android:paddingVertical="4dp"
+            android:text="View"
+            android:textStyle="bold"
+            android:textSize="15sp"
+            android:backgroundTint="#A1887F"
+            android:textColor="#3E2723"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

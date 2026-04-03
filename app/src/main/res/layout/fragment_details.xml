@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/detailsFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBE9"
+    android:fillViewport="true"
+    tools:context=".DetailsFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="16dp">
+
+        <!-- Search Bar -->
+        <LinearLayout
+            android:id="@+id/searchBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="8dp"
+            android:elevation="2dp"
+            android:backgroundTint="#A1887F"
+            android:gravity="center_vertical">
+
+            <EditText
+                android:id="@+id/etSearchBook"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Search book title..."
+                android:textColor="#3E2723"
+                android:backgroundTint="#A1887F"
+                android:imeOptions="actionSearch"
+                android:singleLine="true"
+                android:padding="8dp"
+                android:background="@android:color/transparent"
+                android:textSize="16sp" />
+
+            <ImageButton
+                android:id="@+id/btnSearch"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:textColor="#3E2723"
+                android:backgroundTint="#A1887F"
+                android:src="@android:drawable/ic_menu_search"
+                android:contentDescription="Search" />
+
+        </LinearLayout>
+
+        <!-- Container for Book Result -->
+        <LinearLayout
+            android:id="@+id/bookContainer"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+            <!-- Dynamically, item_book_details will be added here -->
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>
